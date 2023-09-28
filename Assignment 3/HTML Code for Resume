@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rishon D. Netala - Resume</title>
+    <style>
+        /* Add your CSS styles here for formatting */
+        /* Example:
+        body {
+            font-family: Arial, sans-serif;
+        }
+        */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rishon D. Netala</h1>
+        <p>
+            <a href="mailto:rnetala@asu.edu">rnetala@asu.edu</a><br>
+            <a href="tel:480-280-5888">480-280-5888</a><br>
+            <a href="https://www.linkedin.com/in/rdnetala">www.linkedin.com/in/rdnetala</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Objective</h2>
+        <p>
+            Hardworking and enthusiastic student eager to gain hands-on experience in Cloud Computing and use of AWS technologies to
+            contribute and excel in machine learning and fintech fields. Extensive experience in working on professional teams with a
+            consistent ability to deliver real results.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <td>2021-2024</td>
+                <td>Bachelors in Computer Science</td>
+                <td>Minor in Economics</td>
+                <td>GPA – 3.76</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Barrett, the Honors College at ASU</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <p>Achievements: Dean’s List 2021-Present Day, New American University Scholarship</p>
+    </section>
+
+    <section>
+        <h2>Programming Experience</h2>
+        <ol>
+            <li>
+                <p>
+                    <strong>Web Development Intern – Engineering without Borders</strong><br>
+                    • Spearheaded front-end development of HTML based website using REACT, CSS, HTML focused on
+                    delivering accessible avenues for third-party outreach and community development<br>
+                    • Facilitated constant communication with leadership team in SCRUM-based framework, creating actionable plans
+                    and quantifiable impact in communities through engineering<br>
+                    • Concluded by creating multiple mountain bike tracks in Navajo nation and tube city as a means of community
+                    service and boosting tourism in underserved areas
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Programming Officer – ML & BLOCKCHAIN @ ASU</strong><br>
+                    • Led programming workshops focused on languages and tools essential for machine learning, including Python,
+                    TensorFlow, and scikit-learn, increasing members' technical proficiency.<br>
+                    • Contributed extensively to a project to build a sentiment analysis model that assessed text from diverse social
+                    media platforms, accurately classifying sentiments as positive, negative, or neutral using natural language
+                    processing techniques and advanced text preprocessing methods.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Data Structures and Algorithms – Teaching Assistant</strong><br>
+                    • Conducted code reviews for student submissions, identifying logical errors, performance bottlenecks, and
+                    opportunities to use debugging techniques, empowering them to troubleshoot and refine their code independently.<br>
+                    • Demonstrated very strong understanding of DSA principles through weekly presentations and personalized
+                    assistance on searching algorithms, stacks, queues, and trees
+                </p>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Sentiment Analysis Model</strong><br>
+                • Implemented Sci-Kit Learn Library in Python for both a linear and random forest regression model to classify
+                sentiments based off specific features in the dataset<br>
+                • Implemented key features, including a user authentication system and method of data visualization through
+                Matplotlib libraries in Python.
+            </li>
+            <li>
+                <strong>Movie Recommendation System</strong><br>
+                • Used data pre-processing functionality in Python, took in user input, and then incorporated a cosine similarity
+                algorithm to determine what movie the user might most like next.<br>
+                • Presented the data to the user with the option of seeing all movies that user may enjoy, or finding the closest match
+                to the last movie seen by the user
+            </li>
+            <li>
+                <strong>Chat Application</strong><br>
+                • Designed the chat application to allow users to chat with each other in real-time and utilized Firebase for data
+                storage and authentication.<br>
+                • Demonstrated strong proficiency in JavaScript, React, and Firebase, as well as experience working with real-time
+                data synchronization and cloud-based services.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <p>
+            C++, PYTHON, R, MATLAB, REACT, HTML, CSS, JAVASCRIPT, SHELL SCRIPTING, RUST,
+            RUBY, SQL, UNIX/LINUX OS, SCRUM FRAMEWORK
+        </p>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <p>
+            AWS Solutions Architect (Associate) / AWS Developer (Associate) - (In-progress, Exam scheduled)
+        </p>
+    </section>
+
+<section>
+    <h2>References</h2>
+    <ul>
+        <li>
+            <strong>Reference 1</strong><br>
+            Brian Evans<br>
+            Community Director<br>
+            ASUbr>
+            Phone: (123) 456-7890<br>
+            Email: john.doe@example.com
+        </li>
+    
+    </ul>
+</section>
+</body>
+</html>
