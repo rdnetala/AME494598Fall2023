@@ -15,7 +15,7 @@ void setup()
     ttgo->tft->setTextFont(4);
 
     // Calculate text position for centering
-    int textWidth = ttgo->tft->textWidth("Hello World");
+    int textWidth = ttgo->tft->textWidth("Rishon");
     int textHeight = ttgo->tft->fontHeight();
     int centerX = (ttgo->tft->width() - textWidth) / 2;
     int centerY = (ttgo->tft->height() - textHeight) / 2;
