@@ -20,7 +20,7 @@ void setup()
     int centerX = (ttgo->tft->width() - textWidth) / 2;
     int centerY = (ttgo->tft->height() - textHeight) / 2;
 
-    ttgo->tft->drawString("Hello World", centerX, centerY);
+    ttgo->tft->drawString("Rishon", centerX, centerY);
 }
 
 void loop()
