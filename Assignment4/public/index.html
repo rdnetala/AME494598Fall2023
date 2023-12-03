@@ -9,6 +9,7 @@ function updateData()
     document.getElementById("results").innerHTML = data;
   })
 }
+
 function start()
 {
   setInterval("updateData()", 300);
@@ -16,13 +17,42 @@ function start()
 </script>
 </head>
 <body onload='start()'>
-<h1> Temperature/Humidity</h1>
-<div id='results'> </div>
+<h1>Temperature/Humidity</h1>
+<div id='results'></div>
 
-<div id="turorial">
-
-
+<div id="tutorial">
+  <h2>Step-by-Step Guide:</h2>
+  <ol>
+    <li>Start AWS Academy lab from AWS Academy Canvas -> Modules -> Sandbox.</li>
+    <li>Navigate to EC2 and create an instance of a machine on the AWS server. Use the following settings:
+      <ul>
+        <li>Linux Ubuntu 20.04</li>
+        <li>t2:micro</li>
+        <li>Continue without key-pair login</li>
+        <li>~28 Gb storage</li>
+      </ul>
+    </li>
+    <li>Click on the instance link and connect to the EC2 instance via SSH.</li>
+    <li>Edit the firewall setting to add inbound rules to open certain ports:
+      <ul>
+        <li>Custom TCP -> port 1234 -> anywhere IPv4</li>
+        <li>Custom TCP -> port 8080 -> anywhere IPv4</li>
+        <li>If storing data to a database, configure: Custom TCP -> port 27017 -> My IP</li>
+      </ul>
+    </li>
+    <li>Setup the Linux machine on the cloud by installing the required software:
+      <ul>
+        <li>Run: curl -s https://gist.githubusercontent.com/tejaswigowda/f289e9bff13d152876e8d4b3281142f8/raw/df37df2e16a3166e686357a045751a7c18bbeebe/installNodeMongoUbuntu16.04.sh | bash</li>
+        <li>Software includes NodeJs, MongoDB, http-server. Update NodeJs to V20 with: sudo npm install && sudo n latest</li>
+        <li>Clone the class/own repository using: git clone <git repository link></li>
+      </ul>
+    </li>
+    <li>Navigate through the repository and start hosting the folder containing the server.js file. Use the command: node server.js</li>
+    <li>Open ArduinoIDE, and open the DHT11Default.ino code. Update SSID, password, and server IP to the hotspot login, then upload the Arduino sketch to the microcontroller.</li>
+    <li>Connect to the EC2 server through the browser to see the data from the microcontroller.</li>
+  </ol>
 </div>
 
 </body>
 </html>
+
