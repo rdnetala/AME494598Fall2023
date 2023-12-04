@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<script src='asyncReq.js'></script>
+<script>
+function updateData()
+{
+  loadURL("./getData", function(data){
+    document.getElementById("results").innerHTML = data;
+  })
+}
+
+function start()
+{
+  setInterval("updateData()", 300);
+}
+</script>
+</head>
+<body onload='start()'>
+<h1>Temperature/Humidity</h1>
+<div id='results'></div>
+
+<div id="tutorial">
+  <h2>Step-by-Step Guide:</h2>
+  <ol>
+    <li> Google the EC2 Dashboard and login with the Root User Login, not the IAM.
+    <li>Navigate to EC2 and create an instance of a machine on the AWS server, name it as you like and use the following settings:
+      <ul>
+        <li>Linux Ubuntu 20.04 (This is important)</li>
+        <li>t2:micro</li>
+        <li>Continue without key-pair login</li>
+        <li>~28 Gb storage</li>
+      </ul>
+    </li>
+    <li>Click on the connect button near the top of the dashboard and use EC2 instance connect, and access the SSH for your instance.</li>
+    <li>In the dashboard, click on security groups and edit the firewall setting to add inbound rules to open certain ports:
+      <ul>
+        <li>Custom TCP -> port 1234 -> anywhere IPv4</li>
+        <li>Custom TCP -> port 8080 -> anywhere IPv4</li>
+      </ul>
+    </li>
+    <li> we have to set up the Linux machine now
+      <ul>
+        <li> run for the correct software: curl -s https://gist.githubusercontent.com/tejaswigowda/f289e9bff13d152876e8d4b3281142f8/raw/df37df2e16a3166e686357a045751a7c18bbeebe/installNodeMongoUbuntu16.04.sh | bash</li>
+        <li> Update NodeJs to V20 with: sudo npm install && sudo n latest</li>
+        <li>Clone the class/own repository using: git clone <git repository link></li>
+      </ul>
+    </li>
+    <li>Navigate through the repository and start hosting the folder containing the server.js file. Use ls and cd to navigate. Use cd.. to go back up. Use the command: node server.js</li>
+    <li>Open ArduinoIDE, and open the DHT11Default.ino code. Make sure your port is connected correctly. Update SSID, password, and server IP to the hotspot login, then upload the Arduino sketch.</li>
+    <li> Put in the public IP for the EC2 instance, and you can then see the temperature and humidity. End of guide..</li>
+  </ol>
+</div>
+
+</body>
+</html>
