@@ -7,10 +7,10 @@ TTGOClass *ttgo;
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "";
-const char* password = "";
+const char* ssid = "TP-Link_C394";
+const char* password = "15994189";
 
-const char* serverName = "http://192.168.0.195:1234/setValue";
+const char* serverName = "http://54.167.8.247:1234/setValue";
 
 unsigned long lastTime = 0;
 unsigned long timerDelay = 300 * 1000;  // Timer set to 300 seconds (5 minutes)
@@ -95,3 +95,4 @@ void loop() {
     Serial.println(response);
   }
 }
+
