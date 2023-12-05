@@ -1,0 +1,17 @@
+Finished writing the code, but when running into the code, my computer cannot handle Arduino well whatsoever. Spent a few hours in the Media Lounge, but kept running into the following problem in the computer 
+
+Error: Cannot find module MONGODB
+Same error popped up with MOngoskin ^^
+
+Couldn't figure out how to fix this on the computer, searched on stackoverflow and reddit for a while
+
+tried to delete and reinstall node and mongo, it still didn't work.
+
+I have to return the tech at 5, so it's going to be tough to finish this 
+
+I set up the TPLink router attached to the Mac, changed the SSID, Password and used the EC2 Setup Address. Did everything that I did for the guide in the previous assignment. 
+
+I'll attach the error messages and the code that I was used.
+
+I'm pretty confident in the code, and I can outline all the steps needed to accomplish the assignment, it's just taking insane amounts of time to make it work on the computer and I have a lot more finals this week.
+I definitely should've started earlier, and I hope I can receive at least partial credit on the assignment.
