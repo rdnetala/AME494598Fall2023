@@ -1,4 +1,4 @@
-Finished writing the code, but when running into the code, my computer cannot handle Arduino well whatsoever. Spent a few hours in the Media Lounge, but kept running into the following problem in the computer 
+Finished writing the code, but when running into the code, my computer cannot handle Arduino well whatsoever. Spent a day in the Media Lounge, but kept running into the following problem in the computer 
 
 Error: Cannot find module MONGODB
 Same error popped up with MOngoskin ^^
@@ -15,3 +15,15 @@ I'll attach the error messages and the code that I was used.
 
 I'm pretty confident in the code, and I can outline all the steps needed to accomplish the assignment, it's just taking insane amounts of time to make it work on the computer and I have a lot more finals this week.
 I definitely should've started earlier, and I hope I can receive at least partial credit on the assignment.
+
+STEPS:
+
+SET UP EC2 Instance
+
+Change code in Arduino to match SSID, Password, and EC2 IP address
+
+Change code to reflect the parameters of the assignment and change the delay
+
+Upload the sketch to the watch and screenshot the update
+
+The final upload I tried to troubleshoot for several hours and coudln't figure it out, which is why I'm writing this.
